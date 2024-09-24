@@ -8,6 +8,27 @@
     <title>Password generator</title>
 </head>
 <body>
-    
+<main>
+    <div class="container">
+        <h2>Gerador de Senhas Seguras</h2>
+        <input type="password" id="password" placeholder="Sua senha gerada aparece aqui" readonly>
+        <button onclick="togglePasswordVisibility()">Mostrar/Ocultar Senha</button>
+        <label>
+            <input type="checkbox" id="includeLowercase" checked> Letras Minúsculas
+        </label><br>
+        <label>
+            <input type="checkbox" id="includeUppercase" checked> Letras Maiúsculas
+        </label><br>
+        <label>
+            <input type="checkbox" id="includeNumbers" checked> Números
+        </label><br>
+        <label>
+            <input type="checkbox" id="includeSymbols"> Caracteres Especiais
+        </label><br>
+        <button onclick="generatePassword()">Gerar Senha</button>
+        <button onclick="copyPassword()">Copiar Senha</button>
+        <p class="password-strength" id="passwordStrength"></p>
+    </div>
+</main>
 </body>
 </html>
