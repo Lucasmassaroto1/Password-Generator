@@ -11,8 +11,8 @@
 <main>
     <div class="container">
         <h2>Password Generator</h2>
-        <input type="password" id="password" placeholder="Sua senha gerada aparece aqui" readonly>
-        <button onclick="togglePasswordVisibility()">Mostrar/Ocultar Senha</button><br>
+        <input type="password" id="password" placeholder="Sua senha é:" style="width: 20ch; border-radius: 10px;" readonly>
+        <button onclick="togglePasswordVisibility()">Mostrar/Ocultar</button><br>
         <p class="password-strength" id="passwordStrength"></p>
         <label>
             <input type="checkbox" id="includeLowercase" checked> Letras Minúsculas
@@ -27,7 +27,7 @@
             <input type="checkbox" id="includeSymbols"> Caracteres Especiais
         </label><br>
         <label for="passwordLength">Tamanho da Senha:</label>
-        <input type="number" id="passwordLength" style="width: 5ch; border-radius: 10px;" value="12" min="4" max="20"><br>
+        <input type="number" id="passwordLength" style="width: 5ch; border-radius: 5px;" value="12" min="4" max="20"><br>
         <button onclick="generatePassword()">Gerar Senha</button>
         <button onclick="copyPassword()">Copiar Senha</button>
     </div>
