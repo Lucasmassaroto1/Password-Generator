@@ -21,7 +21,7 @@ const lowercase = 'abcdefghijklmnopqrstuvwxyz';
         if (includeSymbols) availableCharacters += symbols;
 
         let password = '';
-        const passwordLength = 12; // Defina o comprimento da senha aqui
+        const passwordLength = parseInt(document.getElementById('passwordLength').value);
 
         for (let i = 0; i < passwordLength; i++) {
             password += getRandomCharacter(availableCharacters);
