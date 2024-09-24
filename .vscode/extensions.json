@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "naumovs.color-highlight",
+      "carlos18mz.cyberpunk-2077-rebuild",
+      "oderwat.indent-rainbow",
+      "ms-vscode.live-server",
+      "ritwickdey.LiveServer",
+      "miramac.vscode-exec-node",
+      "MS-CEINTL.vscode-language-pack-pt-BR",
+      "esbenp.prettier-vscode",
+      "ms-python.vscode-pylance",
+      "ms-python.python",
+      "ms-python.debugpy",
+      "vscode-icons-team.vscode-icons"
+    ]
+  }
